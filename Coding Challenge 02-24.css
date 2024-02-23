@@ -1,0 +1,95 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    width: 99%;
+    height: 99%;
+    justify-content: center;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container1 {
+    display: inline-block;
+    overflow: hidden;
+    width: 63.5%; 
+    height: 85.5%;
+    margin: 1.4% auto auto;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+    margin-top: 7.5%;
+    color: rgb(0, 221, 0);
+    font-family: Calibri;
+    font-size:45px;
+    font-weight: 600;
+    text-align: center;
+}
+
+nav {
+    height: 55px;
+    width: 83%;
+    margin: 8px auto auto;
+    background-color: rgb(0, 221, 0);
+    align-content: center;
+}
+
+.NavButtons {
+    font-size: 16px;
+    height: 28px;
+    position: relative;
+    bottom:9px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: rgb(100, 100, 100)
+}
+
+main {
+    width: 83%;
+    margin: 2% auto auto;
+    color: white;
+}
+
+.Monopattino {
+    margin-bottom: 50px;
+}
+
+.Monopattino > label {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.Monopattino > p {  
+    font-size: 25px;
+    margin: 0;
+}
+
+.AviabilityCheck {
+    width: 15px;
+    height: 15px;
+}
+
+.BatteryIndicators {
+    height: 40px;
+    border-radius: 7px;
+}
+
+#GinoBattery {
+    background-color: rgba(245,180,83,1);
+    width: 440px;
+}
+
+#MikeBattery {
+    background-color: rgba(0, 221, 0, 1);
+    width: 750px;
+}
+
+#FedeBattery {
+    background-color: rgba(190,65,65,1);
+    width: 200px;
+}
